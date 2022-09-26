@@ -1,0 +1,140 @@
+body {
+    background-color: #fff2e2;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+nav,
+main,
+footer {
+    display: block;
+}
+
+#wrapper {
+    background-color: #540B0E;
+    box-shadow: 2px 2px 2px 2px black;
+    box-shadow: drop-shadow;
+    min-width: 500px;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header {
+    background-color: #540B0E;
+    color: #FFF3B0;
+    font-family: Georgia, serif;
+}
+
+h1 {
+    line-height: 300%;
+    background-image: url(images/books.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-left: 1em;
+    height: 90px;
+    margin-bottom: 0;
+}
+
+nav {
+    font-weight: bold;
+    padding: 0;
+    float: left;
+    width: 140px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 2em;
+}
+
+nav li {
+    padding-bottom: 1em;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #FFFFFF;
+}
+
+nav a:visited {
+    color: #85B79D;
+}
+
+nav a:hover {
+    color: #818181;
+}
+
+main {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: #ebd5b8;
+    margin-left: 150px;
+
+}
+
+h2 {
+    color: #214E34;
+    font-family: Georgia, Times, serif;
+}
+
+h3 {
+    color: #540B0E;
+    font-family: Georgia, Times, serif;
+}
+
+footer {
+    font-size: 0.70em;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
+    margin-left: 150px;
+    background-color: #FFFFFF;
+}
+
+#mobile {
+    display: none;
+}
+
+#desktop {
+    display: inline;
+}
+
+.brightMinds {
+    color: #540B0E;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding-top: 1em;
+    padding-bottom: 0;
+    padding-left: 2em;
+}
+
+label {
+    float: left;
+    display: block;
+    width: 10em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+input,
+textarea,
+select {
+    display: block;
+    margin-bottom: 2em;
+}
+
+#mySubmit {
+    margin-left: 5em;
+    cursor: pointer;
+}
