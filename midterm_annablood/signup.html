@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Bright Minds Tutoring :: Sign Up</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Bright Minds Tutoring</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="services.html">Tutoring Services</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>Sign Up for Bright Minds Tutoring</h2>
+            <h3>Fill out the intake form to schedule your first session:</h3>
+            <p>Required information is marked with an asterisk (*).</p>
+            <form method="post" action="https://webdevbasics.net/scripts/portfolio.php">
+                <fieldset>
+                    <legend>Parent Info</legend>
+                    <label for="parentName">*Parent Name:</label>
+                    <input type="text" name="parentName" id="parentName" required>
+                    <label for="parentEmail">*Parent E-mail</label>
+                    <input type="email" name="parentEmail" id="parentEmail" required>
+                    <label for="parentPhone">Parent Phone</label>
+                    <input type="tel" name="parentPhone" id="parentPhone">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Student Info</legend>
+                    <label for="studentName">Student Name</label>
+                    <input type="text" name="studentName" id="studentName">
+                    <label for="grade">*Student Grade Level</label>
+                    <input type="text" name="grade" id="grade" required>
+                    <label for="subject">*Subject</label>
+                    <select size="1" name="subject" id="subject" required>
+                        <option>Select subject</option>
+                        <option value="chemistry">Chemistry</option>
+                        <option value="biology">Biology</option>
+                        <option value="algebra">Algebra</option>
+                        <option value="geometry">Geometry</option>
+                        <option value="calculus">Calculus</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Session Info</legend>
+                    <label for="startDate">Start Date</label>
+                    <input type="date" name="startDate" id="startDate">
+                    <label for="sessions">Sessions Per Week</label>
+                    <input type="number" min="1" max="5" name="sessions" id="sessions">
+                    <label for="hours">Hours Per Week</label>
+                    <input type="number" min="1" max="10" name="hours" id="hours">
+                    <label for="location">*Location</label>
+                    <select size="1" name="location" id="location" required>
+                        <Option>Select Location</Option>
+                        <Option value="online">Online</Option>
+                        <Option value="In person">In person (Sarasota)</Option>
+                    </select>
+                    <label for="questions" id="questions">Questions or Comments</label>
+                    <textarea name="questions" id="questions" cols="20" rows="3"></textarea>
+                </fieldset>
+
+                <input type="submit" id="mySubmit">
+            </form>
+        </main>
+
+        <footer>
+            <p>Copyright &copy; 2022 Bright Minds Tutoring
+                <br><a href="mailto:ab00721@my.westga.edu">ab00721@my.westga.edu</a>
+            </p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
