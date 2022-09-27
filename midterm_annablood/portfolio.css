@@ -87,6 +87,11 @@ h2 {
 h3 {
     color: #540B0E;
     font-family: Georgia, Times, serif;
+    padding-bottom: 0;
+}
+
+p {
+    padding-top: 0;
 }
 
 footer {
@@ -138,3 +143,12 @@ select {
     margin-left: 5em;
     cursor: pointer;
 }
+
+#indent {
+    padding-left: 3em;
+}
+
+#contact {
+    padding-top: 2em;
+}
+
