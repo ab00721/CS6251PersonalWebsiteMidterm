@@ -1,5 +1,5 @@
 body {
-    background-color: #fff2e2;
+    background-color: #CED0CE;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -12,7 +12,7 @@ footer {
 }
 
 #wrapper {
-    background-color: #540B0E;
+    background-color: #053225;
     box-shadow: 2px 2px 2px 2px black;
     box-shadow: drop-shadow;
     min-width: 500px;
@@ -22,8 +22,8 @@ footer {
 }
 
 header {
-    background-color: #540B0E;
-    color: #FFF3B0;
+    background-color: #053225;
+    color: #CED0CE;
     font-family: Georgia, serif;
 }
 
@@ -58,14 +58,26 @@ nav a {
 }
 
 nav a:link {
-    color: #FFFFFF;
+    color: #CED0CE;
 }
 
 nav a:visited {
-    color: #85B79D;
+    color: #9FB8AD;
 }
 
 nav a:hover {
+    color: #818181;
+}
+
+a {
+    color:#053225
+}
+
+a:link {
+    color: #053225
+}
+
+a:hover {
     color: #818181;
 }
 
@@ -74,18 +86,18 @@ main {
     padding-right: 2em;
     padding-top: 1px;
     padding-bottom: 1px;
-    background-color: #ebd5b8;
+    background-color: #CED0CE;
     margin-left: 150px;
 
 }
 
 h2 {
-    color: #214E34;
+    color: #053225;
     font-family: Georgia, Times, serif;
 }
 
 h3 {
-    color: #540B0E;
+    color: #455E43;
     font-family: Georgia, Times, serif;
     padding-bottom: 0;
 }
@@ -100,7 +112,7 @@ footer {
     text-align: center;
     padding: 1em;
     margin-left: 150px;
-    background-color: #FFFFFF;
+    background-color: #CED0CE;
 }
 
 #mobile {
@@ -112,7 +124,7 @@ footer {
 }
 
 .brightMinds {
-    color: #540B0E;
+    color: #3f403f;
     font-weight: bold;
     font-size: 1em;
 }
