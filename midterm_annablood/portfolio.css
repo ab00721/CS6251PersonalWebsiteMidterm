@@ -83,12 +83,13 @@ a:hover {
 }
 
 main {
-    padding-left: 2em;
+    padding-left: 1em;
     padding-right: 2em;
     padding-top: 1px;
     padding-bottom: 1px;
     background-color: #FFFFFF;
     margin-left: 150px;
+    overflow: auto;
 }
 
 h2 {
@@ -113,7 +114,9 @@ footer {
     padding: 1em;
     margin-left: 150px;
     background-color: #e4e4e4;
-    clear: aside;
+    overflow: auto;
+    clear: right;
+    border-top: 1px solid #053225;
 }
 
 #mobile {
@@ -133,6 +136,13 @@ footer {
 .title {
     color: #455E43;
     font-weight: bold;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
 
 fieldset {
@@ -218,15 +228,17 @@ tr:nth-of-type(even) {
     nav {
         float: none;
         width: auto;
-        padding: 0.01em 1em 0.01em 1em;
+        padding: 0.01em 1em 0 1em;
     }
 
     nav li {
         display: inline-block;
+        padding-bottom: 0;
     }
 
     nav a {
         padding-right: 2em;
+        padding-bottom: 0;
     }
 
     main {
@@ -250,6 +262,7 @@ tr:nth-of-type(even) {
     nav {
         padding-left: 0.5em;
         padding-bottom: 0.5em;
+        padding-top: 0.5em;
     }
 
     nav a {
@@ -292,9 +305,9 @@ tr:nth-of-type(even) {
 
 aside {
     float: right;
-    width: 300px;
+    width: 250px;
     background-color: #e4e4e4;
-    padding-left: 2em;
+    padding-left: 1em;
     padding-right: 2em;
     padding-top: 1px;
     padding-bottom: 1px;
@@ -302,4 +315,8 @@ aside {
 
 #threecolumn {
     margin: 0 300px 0 150px;
+}
+
+img {
+    box-align: center;
 }
