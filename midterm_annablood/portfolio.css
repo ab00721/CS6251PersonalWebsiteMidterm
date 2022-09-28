@@ -7,8 +7,7 @@ body {
 header,
 nav,
 main,
-footer, 
-aside {
+footer {
     display: block;
 }
 
@@ -115,8 +114,6 @@ footer {
     margin-left: 150px;
     background-color: #e4e4e4;
     overflow: auto;
-    clear: right;
-    border-top: 1px solid #053225;
 }
 
 #mobile {
@@ -311,12 +308,5 @@ aside {
     padding-right: 2em;
     padding-top: 1px;
     padding-bottom: 1px;
-}
-
-#threecolumn {
-    margin: 0 300px 0 150px;
-}
-
-img {
-    box-align: center;
+    display: block;
 }
