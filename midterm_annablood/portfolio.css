@@ -1,5 +1,5 @@
 body {
-    background-color: #818181;
+    background-color: #9FB8AD;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -7,12 +7,13 @@ body {
 header,
 nav,
 main,
-footer {
+footer, 
+aside {
     display: block;
 }
 
 #wrapper {
-    background-color: #053225;
+    background-color: #e4e4e4;
     box-shadow: 2px 2px 2px 2px black;
     box-shadow: drop-shadow;
     min-width: 500px;
@@ -58,15 +59,15 @@ nav a {
 }
 
 nav a:link {
-    color: #CED0CE;
+    color: #053225;
 }
 
 nav a:visited {
-    color: #9FB8AD;
+    color: #6e6e6e;
 }
 
 nav a:hover {
-    color: #818181;
+    color: #9FB8AD;
 }
 
 a {
@@ -86,9 +87,8 @@ main {
     padding-right: 2em;
     padding-top: 1px;
     padding-bottom: 1px;
-    background-color: #CED0CE;
+    background-color: #FFFFFF;
     margin-left: 150px;
-
 }
 
 h2 {
@@ -112,7 +112,8 @@ footer {
     text-align: center;
     padding: 1em;
     margin-left: 150px;
-    background-color: #CED0CE;
+    background-color: #e4e4e4;
+    clear: aside;
 }
 
 #mobile {
@@ -127,6 +128,11 @@ footer {
     color: #3f403f;
     font-weight: bold;
     font-size: 1em;
+}
+
+.title {
+    color: #455E43;
+    font-weight: bold;
 }
 
 fieldset {
@@ -157,7 +163,7 @@ select {
 }
 
 #indent {
-    padding-left: 3em;
+    padding-left: 1em;
 }
 
 #contact {
@@ -169,6 +175,7 @@ table {
     width: 70%;
     border: 1px solid #455E43;
     border-collapse: collapse;
+    margin-bottom: 2em;
 }
 
 th {
@@ -277,4 +284,22 @@ tr:nth-of-type(even) {
     #desktop {
         display: none;
     }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+aside {
+    float: right;
+    width: 300px;
+    background-color: #e4e4e4;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#threecolumn {
+    margin: 0 300px 0 150px;
 }
