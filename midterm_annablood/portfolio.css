@@ -205,11 +205,11 @@ td {
 }
 
 tr:nth-of-type(odd) {
-    background-color: #bcbcbc;
+    background-color: #e4e4e4;
 }
 
 tr:nth-of-type(even) {
-    background-color: #9FB8AD;
+    background-color: #c2dfd2;
 }
 
 @media only screen and (max-width: 1042px) {
